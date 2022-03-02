@@ -66,7 +66,7 @@ function del (id) {
           return true
         }
       })
-      task_arr.splice(index)
+      task_arr.splice(index, 1)
       console.log(index)
     }
   })
