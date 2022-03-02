@@ -81,6 +81,7 @@ function update (id) {
       document.getElementById('new-task').value = element['task']
     }
   })
-  del(id)
+
   console.log(id)
+  del(id)
 }
